@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "prayer_time",
+    "slug": "prayer_time",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./images/splash_icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.musaed12.prayer_time"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  },
+  "plugins": [
+    [
+      "expo-notifications",
+      {
+        "icon": "./local/assets/notification-icon.png",
+        "color": "#ffffff",
+        "sounds": [
+          "./local/assets/notification-sound.wav",
+          "./local/assets/notification-sound-other.wav"
+        ]
+      }
+    ]
+  ]
+}
